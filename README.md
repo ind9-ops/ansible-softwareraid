@@ -7,6 +7,14 @@
 # Creating the RAID
 Put the following in the defaults/main.yml if you are doing a local playbook else, in the playbook vars to override the role vars.
 
+# Sample Playbook
+```yaml
+- hosts: all
+  roles:
+     - jacoelho.softwareraid
+  - include_vars: vars_file_with_defined_snippet_below.yml
+```
+
 ## Variables
 ```yaml
 software_raid_alerts_email: "email@example.com"
