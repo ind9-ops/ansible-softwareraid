@@ -4,6 +4,8 @@
  * configures raid devices
  * optionally mount the raid devices 
 
+# Creating the RAID
+Put the following in the defaults/main.yml if you are doing a local playbook else, in the playbook vars to override the role vars.
 
 ## Variables
 ```yaml
